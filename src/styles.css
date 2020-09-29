@@ -36,6 +36,13 @@ hr {
     height: 50px;
 }
 
+.img-foto {
+  border-radius:150px;
+  height: 150px;
+  width: 150px;
+  border: 5px solid #fff;
+}
+
 
 /* Animaciones */
 
@@ -64,4 +71,11 @@ hr {
 
 .fadeIn {
     animation-name: fadeIn;
+}
+
+th{
+  color: white;
+}
+td {
+  color: white;
 }
