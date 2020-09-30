@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-alerta',
@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlertaComponent implements OnInit {
 
-  constructor() { }
+  @Input() mensajeEror: string;
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
